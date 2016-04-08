@@ -1,6 +1,7 @@
 /**
  * Total Comfort API
  *   
+ * Copyright 2016 Dereck Wonnacott <dereck@gmail.com>
  * Copyright 2015 Eric Thomas
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -40,7 +41,7 @@ preferences {
 }
 
 metadata {
-  definition (name: "Total Comfort API", namespace:"Total Comfort API", author: "ET, LGK, DAW") {
+  definition (name: "Honeywell-TCC", namespace:"dawonn", author: "ET, LGK, DAW") {
     capability "Polling"
     capability "Thermostat"
     capability "Refresh"
